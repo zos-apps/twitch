@@ -1,0 +1,108 @@
+{
+  "name": "@zos-apps/twitch",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.twitch",
+    "name": "Twitch",
+    "icon": "📺",
+    "category": "entertainment",
+    "description": "Watch live streams and gaming content",
+    "permissions": [
+      "network"
+    ],
+    "window": {
+      "defaultSize": {
+        "width": 1100,
+        "height": 700
+      },
+      "resizable": true
+    },
+    "featured": true,
+    "tags": [
+      "streaming",
+      "gaming",
+      "live",
+      "entertainment"
+    ],
+    "about": "Live streaming platform for gaming and entertainment.",
+    "help": [
+      "Browse streams",
+      "Follow channels",
+      "Chat with community"
+    ],
+    "docs": "https://zos-apps.github.io/twitch",
+    "site": "https://github.com/zos-apps/twitch",
+    "features": [
+      "Live streams",
+      "Chat",
+      "Clips",
+      "VODs",
+      "Subscriptions"
+    ],
+    "shortcuts": [
+      "Space Play/Pause",
+      "F Fullscreen",
+      "T Theater mode"
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/twitch"
+    },
+    "releaseDate": "2024-12-31",
+    "support": "https://github.com/zos-apps/twitch/issues",
+    "changelog": "https://github.com/zos-apps/twitch/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@zos-apps/config": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "description": "Watch live streams and gaming content",
+  "homepage": "https://zos-apps.github.io/twitch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/twitch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/twitch/issues"
+  },
+  "keywords": [
+    "zos",
+    "app",
+    "twitch",
+    "streaming",
+    "gaming",
+    "live",
+    "entertainment"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
